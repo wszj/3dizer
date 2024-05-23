@@ -1,0 +1,129 @@
+.magic3d {
+    width: 1280px;
+    height: 1337px;
+    background: url(../../assets/images/magic3d.png);
+}
+.magic3d .inner {
+    width: 930px;
+    margin: 0 auto;
+}
+.magic3d .introduce .module-title {
+    padding-top: 124px;
+    font-size: 36px;
+    text-align: left;
+}
+.magic3d .introduce .magic3d-subtitle {
+    padding-top: 100px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+}
+.magic3d .introduce .magic3d-content {
+    font-size: 16px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.magic3d .detail {
+    display: flex;
+}
+.magic3d .detail .detail-left {
+    width: 396px;
+    text-align: left;
+}
+.magic3d .detail .detail-right {
+    flex-grow: 1;
+    text-align: right;
+}
+.magic3d .detail .detail-left-title {
+    padding-top: 79px;
+    font-size: 20px;
+}
+.magic3d .detail .detail-left-content {
+    padding-top: 16px;
+    font-size: 13px;
+}
+.magic3d .detail .detail-left-content ul {
+    list-style-type: none; /* 移除默认列表样式 */
+    margin: 0;
+    padding: 0;
+}
+.magic3d .detail .detail-left-content ul li {
+    margin-bottom: 20px;
+}
+.magic3d .detail .detail-left-content ul li div:first-child {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 900;
+    margin-left: 14px;
+}
+
+
+
+.magic3d .detail .detail-right-info {
+    padding-top: 36px;
+    font-size: 22px;
+}
+.magic3d .detail .detail-right-duration {
+    padding-top: 20px;
+    font-size: 17px;
+    margin-right: 52px;
+}
+.magic3d .detail .detail-right-duration-cont {
+    padding-top: 20px;
+    height: 132px;
+    font-size: 12px;
+    text-align: right;
+}
+.magic3d .detail .detail-right-duration-cont table {
+    width: 300px;
+    float: right;
+}
+.magic3d .detail .detail-right-duration-cont td {
+    text-align: center;
+    line-height: 24px;
+}
+
+.magic3d .detail .detail-right-require {
+    padding-top: 18px;
+    font-size: 17px;
+    
+}
+.magic3d .detail .detail-right-require-cont {
+    padding-top: 14px;
+    height: 132px;
+    font-size: 12px;
+    text-align: right;
+}
+.magic3d .detail .detail-right-require-cont table {
+    width: 285px;
+    float: right;
+}
+.magic3d .detail .detail-right-require-cont td {
+    text-align: center;
+    line-height: 25px;
+}
+.magic3d .detail .detail-right-require-cont td:last-child {
+    text-align: left;
+}
+.magic3d .detail .detail-right-desc {
+    font-size: 12px;
+}
+
+
+.magic3d .magic3d-download {
+    padding-top: 44px;
+    text-align: right;
+    height: 30px;
+    margin: 0 auto;
+}
+.magic3d .magic3d-download a {
+    display: inline-block;
+    width: 380px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 700;
+}
+

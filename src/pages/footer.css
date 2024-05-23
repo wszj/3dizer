@@ -1,0 +1,117 @@
+.footer {
+  display: flex; /* 使用Flex布局 */
+  height: 134px;
+  background-image: url("../assets/images/footer/bg.jpg");
+  background-size: 1280px 134px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background: #000 url("../assets/images/footer/bg.jpg") no-repeat 1280px 134px fixed; */
+}
+
+.footer .logo-footer {
+  width: 500px;
+}
+.footer .logo-footer a {
+  padding-left: 193px;
+  padding-top: 43px;
+  display: inline-block;
+}
+.footer .logo-footer a img {
+  width: 89px;
+  height: 25px;
+}
+.footer .logo-footer span {
+  margin-left: 15px;
+  display: inline;
+  font-size: 11px;
+  line-height: 25px;
+  vertical-align: super;
+}
+
+.footer .contact {
+  flex: 1; /* 右边栏占据剩余空间 */
+  padding-top: 43px;
+  text-align: right;
+}
+.footer .contact .email,
+.footer .contact .social {
+  margin-right: 195px;
+}
+.footer .contact .email {
+  font-size: 12px;
+  padding-bottom: 12px;
+}
+.footer .contact .social a {
+  display: inline-block;
+  width: 23px;
+  height: 25px;
+}
+.footer .contact .social a.telegram {
+  background-image: url("../assets/images/footer/telegram.png");
+  background-size: 23px 25px;
+  margin-right: 32px;
+  /* background: #999 url("../assets/images/footer/telegram.jpg") no-repeat left bottom fixed; */
+}
+.footer .contact .social a.discord {
+  /* background: #000 url("../assets/images/footer/discord.png") no-repeat center center fixed; */
+  background-image: url("../assets/images/footer/discord.png");
+  background-size: 23px 17px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 32px;
+}
+.footer .contact .social a.twitter {
+  /* background: #000 url("../assets/images/footer/x.png") no-repeat center center fixed; */
+  background-image: url("../assets/images/footer/x.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 20px 19px;
+}
+
+
+
+
+
+
+.partner {
+  display: flex; /* 使用Flex布局 */
+  height: 220px;
+  background-image: url("../assets/images/partner-bg.jpg");
+  background-size: 1280px 220px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background: #000 url("../assets/images/partner-bg.jpg") no-repeat center center fixed;; */
+}
+.partner .partners {
+  width: 618px;
+  height: 51px;
+  line-height: 51px;
+  padding-left: 195px;
+  font-size: 14px;
+  text-align: left;
+  background-image: url("../assets/images/partners.png");
+  background-size: 302px 51px;
+  background-position: center right;
+  background-repeat: no-repeat;
+}
+
+
+
+.back-to-top {
+  position: fixed; /* 固定位置 */
+  bottom: 2em; /* 距离底部20px */
+  right: 2em; /* 距离右侧20px */
+  outline: none;
+  cursor: pointer;
+  z-index: 9999; /* 确保位于其他内容之上 */
+}
+/* .back-to-top:hover {
+  background-color: #4CAF50;
+} */
+.show {
+  display: inline;
+}
+
+.img-back{
+  width:50px;
+}

@@ -1,0 +1,106 @@
+.header {
+    display: flex; /* 使用Flex布局 */
+    height: 91px;
+    justify-content: space-between;
+    /* background: #000 url("../../assets/images/header/nav-bg.jpg") no-repeat center top fixed;; */
+}
+
+/* 左侧：logo */
+.header .logo {
+    width: 291px; /* 左侧定宽 */
+    display: flex;
+    align-item:center;
+}
+.header .logo a {
+
+    display: block;
+    width: 117px;
+    height: 33px;
+    padding: 30px 0;
+}
+.App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+}
+
+@keyframes app-logo-float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+}
+
+/* 中间：nav */
+.header nav {
+    flex: 1; /* 右侧占据剩余空间 */
+    justify-content: flex-end;
+    height: 40px;
+    margin-top: 25px;
+}
+.menu{
+    display:flex;
+}
+.header nav ul.nav {
+    list-style-type: none; /* 移除默认列表样式 */
+   
+    width: 324px;
+   
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* 清除浮动 */
+    background:#02000D;;
+    /* background:red; */
+    border-radius:24px;
+    border: 1px solid #02286C;
+}
+
+.header ul.nav li {
+    float: left; /* 设置横向浮动 */
+}
+
+.header ul.nav li a {
+    display: block; /* 将链接显示为块级元素 */
+    padding: 10px 0; /* 设置内边距 */
+    text-decoration: none; /* 移除下划线 */
+    color: white; /* 设置文本颜色 */
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+.header ul.nav li a:hover {
+    color: #2E83F7; /* 鼠标悬停时的背景颜色 */
+}
+.header ul.nav li a.active {
+    color: #2E83F7;
+}
+
+/* 右侧：login */
+.login {
+    margin-left:16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 0px 12px;
+    font-size:14px;
+    border-radius:6px;
+    border: 1px solid #02286C;
+    cursor: pointer;
+}
+.login-box{
+    margin-left:16px;
+    text-align:initial;
+}
+.login-img{
+   
+    /* margin-top:5px; */
+    width:40px;
+    height:40px;
+    background:  url("../../assets/images/header/personal.png") no-repeat;
+    background-size: 100% 100%;
+    cursor:pointer;
+}

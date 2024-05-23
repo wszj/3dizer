@@ -1,0 +1,21 @@
+.point-pagination{
+  padding-top: 20px;
+  text-align: center;
+}
+.point-pagination-item{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 24px;
+  border-radius: 4px;
+  color: #fff;
+}
+.point-pagination-item.active{
+  border: 1px solid #f2f2f2;
+  color: #fff;
+}
+.point-table td{
+  text-align: center;
+}

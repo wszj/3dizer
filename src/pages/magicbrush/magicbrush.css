@@ -1,0 +1,45 @@
+.magicbrush {
+    width: 1280px;
+    height: 774px;
+    background: url(../../assets/images/magicbrush.png);
+    text-align: left;
+}
+.magicbrush-inner {
+    width: 1000px;
+    margin: 0 auto;
+}
+.magicbrush .brush-title {
+    padding-top: 150px;
+    font-size: 36px;
+}
+.magicbrush .brush-content {
+    padding-top: 26px;
+    font-size: 16px;
+    color: #E4E8F4;
+    opacity: 0.68;
+}
+
+.magicbrush .brush-transfer {
+    padding-top: 234px;
+    width: 522px;
+    margin-left: 54px;
+    text-align: center;
+}
+.magicbrush .brush-transfer td {
+    color: #E4E8F4;
+    font-size: 12px;
+}
+
+.magicbrush .brush-more {
+    padding-top: 75px;
+    font-size: 16px;
+    width: 323px;
+    margin-left: 140px;
+}
+.magicbrush .brush-more a {
+    display: inline-block;
+    width: 323px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
